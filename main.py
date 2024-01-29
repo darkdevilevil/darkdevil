@@ -14,7 +14,7 @@ def ai(txt):
 
 
 
-st.title("DARKDEVIL AI ASSISTANT FOR USER")
+st.title("DARKDEVIL AI ASSISTANT")
 
 command = st.chat_input("how can I help you?")
 
