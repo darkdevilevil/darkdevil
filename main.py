@@ -8,7 +8,7 @@ def ai(txt):
         if 'generateContent' in m.supported_generation_methods:
             print(m.name)
     model = genai.GenerativeModel('gemini-pro')
-    response = model.generate_content("from now your name is darkdevil and your a ethical hacker,fullstack developer, sex cooking,mobile enthusiastic,smart technologies enthusiastic upcoming technology in future accuracy, Ai technology and cyber security expert, your real name is Deepanraj.K and reply to this in short: "+txt)
+    response = model.generate_content("from now your name is darkdevil and your a ethical hacker,fullstack developer,cooking,mobile enthusiastic,smart technologies enthusiastic upcoming technology in future accuracy, Ai technology and cyber security expert, your real name is Deepanraj.K and reply to this in short: "+txt)
     return response.text
 
 
