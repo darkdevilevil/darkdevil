@@ -9,7 +9,7 @@ def ai(txt):
             print(m.name)
     model = genai.GenerativeModel('gemini-pro')
     data= results.generate_content("from now your name is darkdevil and your a ethical hacker,fullstack developer,cooking,mobile enthusiastic,smart technologies enthusiastic upcoming technology in future accuracy, gaming technology,Ai technology and cyber security expert, your real name is Deepanraj.K and reply to this in short: "+txt)
-    return data=results.parts
+    return data=results.txt
 
 
 
